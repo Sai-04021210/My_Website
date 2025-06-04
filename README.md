@@ -19,12 +19,25 @@ A responsive portfolio website built with Next.js 13 (App Router), TypeScript, a
 
 ## Tech Stack
 
-- Framework: [Next.js 13](https://nextjs.org/) (App Router)
-- Language: [TypeScript](https://www.typescriptlang.org/)
-- Styling: CSS Modules with CSS Variables
-- UI Components: Custom built with React
-- Deployment: [Vercel](https://vercel.com/) (Recommended)
-- Version Control: Git & GitHub
+### Core Technologies
+- [Next.js 13.5.3](https://nextjs.org/) ([MIT](https://github.com/vercel/next.js/blob/canary/license.md)) - React framework with server-side rendering
+- [React 18.2.0](https://reactjs.org/) ([MIT](https://github.com/facebook/react/blob/main/LICENSE)) - UI component library
+- [TypeScript 5.2.2](https://www.typescriptlang.org/) ([Apache 2.0](https://github.com/microsoft/TypeScript/blob/main/LICENSE.txt)) - Typed JavaScript
+- [Node.js](https://nodejs.org/) 18+ ([MIT](https://github.com/nodejs/node/blob/main/LICENSE)) - JavaScript runtime
+
+### Styling
+- [CSS Modules](https://github.com/css-modules/css-modules) ([MIT](https://github.com/css-modules/css-modules/blob/master/LICENSE-MIT)) - Scoped CSS
+- CSS Variables - For theming and custom properties
+
+### Development Tools
+- [npm](https://www.npmjs.com/) ([Artistic License 2.0](https://github.com/npm/cli/blob/latest/LICENSE)) or [Yarn](https://yarnpkg.com/) ([BSD-2-Clause](https://github.com/yarnpkg/berry/blob/master/LICENSE)) - Package managers
+- [ESLint](https://eslint.org/) ([MIT](https://github.com/eslint/eslint/blob/main/LICENSE)) - Code linting
+- [Git](https://git-scm.com/) ([GPL-2.0](https://github.com/git/git/blob/next/COPYING)) - Version control
+
+### Deployment
+- [Vercel](https://vercel.com/) - Hosting platform with GitHub integration
+
+All technologies used in this project are open source with permissive licenses that allow for both personal and commercial use.
 
 ## Getting Started
 
@@ -58,7 +71,7 @@ A responsive portfolio website built with Next.js 13 (App Router), TypeScript, a
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Project Structure
+## Project Structure 
 
 ```
 src/app/
